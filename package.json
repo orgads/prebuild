@@ -20,17 +20,17 @@
     "node-api"
   ],
   "dependencies": {
-    "cmake-js": "^7.3.0",
-    "detect-libc": "^2.0.2",
+    "cmake-js": "^7.3.1",
+    "detect-libc": "^2.1.2",
     "each-series-async": "^1.0.1",
     "execspawn": "^1.0.1",
     "ghreleases": "^3.0.2",
     "github-from-package": "0.0.0",
-    "glob": "^10.3.10",
+    "glob": "^11.0.3",
     "minimist": "^1.2.8",
-    "napi-build-utils": "^1.0.2",
-    "node-abi": "^3.54.0",
-    "node-gyp": "^10.0.1",
+    "napi-build-utils": "^2.0.0",
+    "node-abi": "^4.15.0",
+    "node-gyp": "^11.5.0",
     "noop-logger": "^0.1.1",
     "npm-which": "^3.0.1",
     "npmlog": "^7.0.1",
@@ -41,7 +41,7 @@
   "devDependencies": {
     "a-native-module": "^1.0.0",
     "standard": "^17.1.2",
-    "tape": "^5.7.4"
+    "tape": "^5.9.0"
   },
   "bin": {
     "prebuild": "./bin.js"
