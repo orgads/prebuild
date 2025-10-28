@@ -3,8 +3,7 @@ var path = require('path')
 var os = require('os')
 
 var backends = {
-  'node-gyp': require('node-gyp')(),
-  'nw-gyp': require('nw-gyp')()
+  'node-gyp': require('node-gyp')()
 }
 
 // Use system installed node-gyp for other JS engines

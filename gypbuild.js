@@ -12,8 +12,6 @@ function runGyp (opts, target, cb) {
   if (opts.runtime === 'electron') {
     args.push('--runtime=electron')
     args.push('--dist-url=https://electronjs.org/headers')
-  } else if (opts.runtime === 'node-webkit') {
-    args.push('--runtime=node-webkit')
   } else if (opts.runtime === 'node') {
     // work around bug introduced in node 10's build https://github.com/nodejs/node-gyp/issues/1457
     args.push('--build_v8_with_gn=false')
