@@ -1,5 +1,5 @@
 {
-  "name": "prebuild",
+  "name": "@audc/prebuild",
   "version": "13.0.1",
   "description": "A command line tool for easily making prebuilt binaries for multiple versions of node or electron on a specific platform",
   "scripts": {
